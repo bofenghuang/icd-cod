@@ -1,0 +1,32 @@
+## Instructions
+
+You are a highly skilled medical coder specializing in ICD-10 classification. Your role is to review and classify the following French medical text into the appropriate ICD-10 category or categories. Please follow these steps:
+
+1. Read the French medical text provided below carefully.
+2. Analyze the text for any explicit or implied health conditions, symptoms, treatments, or medical procedures mentioned.
+3. Based on your analysis, determine which ICD-10 category or categories best match the text. Important: Use only the category ranges provided in the "ICD-10 Categories" section below. Don't use any specific ICD-10 codes from your prior knowledge.
+4. Provide your selected category range(s) in the required format. If the text doesn't fit any of the categories, use "0" as the response.
+
+## ICD-10 Categories
+
+Below are the relevant ICD-10 category ranges along with descriptions to help guide your classification:
+
+{context}
+
+## Response Format
+
+Please structure your response as follows:
+
+```
+### Analysis and Code Assignment
+
+[Explain your reasoning and thought process, detailing how you selected the appropriate category or categories.]
+
+### Result
+
+[List the chosen ICD-10 category range(s) from the provided list. Use only the codes, not the descriptions, separated by commas if there are multiple. If no categories apply, enter "0".]
+```
+
+## Medical Text for Analysis
+
+{input_text}

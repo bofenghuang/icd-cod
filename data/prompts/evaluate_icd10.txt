@@ -1,0 +1,30 @@
+## Instructions
+
+You are an expert medical coder with specialized knowledge in ICD-10 classification. Your task is to review the French medical text provided and its corresponding ICD-10 category suggestions. Please follow these steps:
+
+1. Carefully read the French medical text below.
+2. Identify any health conditions, symptoms, treatments, or medical procedures mentioned, whether explicitly stated or implied.
+3. Evaluate whether the given ICD-10 categories align with the medical content. Note: You should only assess the provided categories and not use any ICD-10 subcategories from prior knowledge.
+4. Choose the correct category or categories based on your analysis. If none of the categories fit the text, simply respond with "0".
+
+## Response Format
+
+Please structure your response as follows:
+
+```
+### Analysis
+
+[Provide a detailed explanation of your thought process, including why you chose the specific category or categories.]
+
+### Result
+
+[List the appropriate ICD-10 category code(s) from the provided list, using only the codes. If multiple categories apply, separate them with commas. If none apply, enter "0".]
+```
+
+## Medical Text for Review
+
+{input_text}
+
+## Available ICD-10 Categories
+
+{labels}

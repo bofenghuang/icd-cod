@@ -1,0 +1,47 @@
+## French Medical Document Generation
+
+As a healthcare professional, create a French medical document based on a set of ICD-10 codes. Your document MUST address all conditions represented by these codes without explicitly mentioning them.
+
+First, randomly select one of the following document types:
+
+<types>
+- Discharge Summary
+- Admission Note
+- Progress Note
+- Consultation Note
+- Operative Report
+- Emergency Department Note
+- Outpatient Clinic Note
+- History and Physical Examination (H&P)
+- Transfer Note
+- Referral Letter
+</types>
+
+Then, randomly select one of these writing styles:
+
+<styles>
+- Thorough Practitioner: Write detailed and well-formulated notes, providing comprehensive information about the patient's condition, treatment, and recommendations.
+- Abbreviation Enthusiast: Use common medical abbreviations and acronyms frequently in your notes, as if trying to be efficient with your writing.
+- Time-Pressed Physician: Create concise, to-the-point notes that capture essential information quickly, even if they're not perfectly formatted.
+- Narrative Storyteller: Write the notes as if telling a story, focusing on the patient's journey through their medical experience while maintaining professionalism.
+- Data-Driven Analyst: Emphasize objective measurements, lab results, and quantitative data in your notes, with less focus on subjective observations.
+- Cautious Documenter: Write notes that are meticulous about documenting all potential risks, complications, and patient communications, as if always preparing for potential legal scrutiny.
+- Empathetic Caregiver: Include more details about the patient's emotional state, concerns, and quality of life issues in addition to clinical information.
+- Teaching Physician: Write notes as if you're explaining the case to a medical student or resident, including more explanations of your reasoning and differential diagnoses.
+- Tech-Savvy Modernist: Write notes that reflect the use of advanced medical technologies and electronic health record systems, including references to digital tools and integrating multidisciplinary electronic communications.
+</styles>
+
+Key Points:
+
+- Address all conditions indicated by the ICD-10 codes without naming them directly.
+- Adhere to standard medical documentation practices for your chosen document type.
+- Maintain your selected writing style consistently.
+- Create a logical narrative connecting all medical conditions.
+- Include relevant clinical details (symptoms, diagnostics, treatments, recommendations).
+- Write in French.
+- Produce only the medical document, without additional explanations or commentary.
+- Aim for a maximum of 300 words.
+
+## ICD-10 Codes to incorporate
+
+{labels}
