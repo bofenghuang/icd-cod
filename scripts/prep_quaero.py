@@ -16,8 +16,8 @@ from datasets import load_dataset
 
 
 def normalize_text(s):
-    s = re.sub(r"’|´|′|ʼ|‘|ʻ|`", "'", s)  # standardize quote
-    s = re.sub(r"−|‐", "-", s)  # standardize hyphen
+    s = re.sub(r"[´′’ʼ‘ʻ`]", "'", s)  # standardize quotes and apostrophes
+    s = re.sub(r"[−‐–—]", "-", s)  # standardize hyphens and dashes
     # standarize special characters (for french)
     s = re.sub(r"æ", "ae", s)
     s = re.sub(r"œ", "oe", s)
