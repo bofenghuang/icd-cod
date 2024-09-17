@@ -394,9 +394,9 @@ def gen_input_text(
 
         # sample 1-5 labels
         num_labels = random.choice(range(1, max_labels + 1))
-        # selected_labels = np.random.choice(codes, size=num_labels, replace=False, p=freqs)
+        selected_labels = np.random.choice(codes, size=num_labels, replace=False, p=freqs)
         # todo: uniform sampling
-        selected_labels = np.random.choice(codes, size=num_labels, replace=False)
+        # selected_labels = np.random.choice(codes, size=num_labels, replace=False)
         example["labels"] = selected_labels
         example["pre_query_str"] = pre_query_str.format(
             labels="\n".join(f"{c}: {code_2_description[c]}" for c in selected_labels)
