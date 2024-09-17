@@ -4,9 +4,10 @@ This project focuses on the automatic codification of medical documents using IC
 
 Key features:
 
-- Data preparation and weak labeling using vLLM
+- Data preparation and weak labeling using LLMs
 - Traditional ML methods (top-k, tf-idf, logistic regression, FastText)
 - Fine-tuning and distillation of pre-trained BERT models
+- Multiple re-weighting loss functions to mitigate class imbalance in multi-label classification
 - Evaluation and benchmarking tools
 
 ## Installation
