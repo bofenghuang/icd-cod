@@ -45,7 +45,7 @@ scripts/eval_labels.sh
 Generate medical documents using sampled ICD-10 codes:
 
 ```bash
-scripts/gen_labels.sh
+scripts/gen_input_text.sh
 ```
 
 ### Model Training
